@@ -93,11 +93,11 @@ namespace Assignment2
             }
             if (same == Lines2.Length)
             {
-                Console.WriteLine("Files are the same");
+                Console.WriteLine("Files "+choice1+" and "+choice2+" are the same");
             }
             if (different > 0)
             {
-                Console.WriteLine("Files are not the same");
+                Console.WriteLine("Files "+ choice1+ " and " +choice2+ " are not the same");
             }
 
             
